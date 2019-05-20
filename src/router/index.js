@@ -5,6 +5,7 @@ import Index from '@/pages/index/index'
 import Home from '@/pages/index/components/home'
 import Test from '@/pages/index/components/test'
 import GoJson from '@/pages/json/json'
+import Video from '@/pages/video/video'
 
 Vue.use(Router)
 
@@ -21,6 +22,11 @@ export default new Router({
       path: '/gojson',
       name: 'gojson',
       component: GoJson,
+    },
+    {
+      path: '/video',
+      name: 'video',
+      component: Video,
     },
     {
       path: '/index',
